@@ -1,31 +1,3 @@
-// import React from "react";
-
-// // Inline styles for the home container
-// const homeStyle = {
-//     height: '100vh',
-//     display: 'flex',
-//     flexDirection: 'column',
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//     textAlign: 'center',
-//     backgroundImage: 'url(Particle-Accelerator-Aesthetic.gif)',
-//     backgroundRepeat: 'no-repeat',
-//     backgroundPosition: 'center',
-//     backgroundSize: 'cover'
-// };
-
-// function Home() {
-//     return (
-//         <div style={homeStyle}>
-//             <h1>C.E.R.N</h1>
-//             <h3>Centripetal Electronic Robotic Navigator</h3>
-//         </div>
-//     );
-// }
-
-// export default Home;
-
-
 import React from "react";
 
 // // Inline styles for the home container
