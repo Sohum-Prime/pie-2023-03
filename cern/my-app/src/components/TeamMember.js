@@ -6,12 +6,12 @@ function TeamMember({ name, major, interests, role, picture, email, linkedin, gi
     const memberStyle = {
         border: `2px solid var(--accent)`,
         margin: '5px',
-        padding: '5px',
+        padding: '8px',
         borderRadius: '5px',
         transition: 'transform 0.3s ease-in-out',
         cursor: 'pointer',
         width: isExpanded ? '100%' : '18%', // Width remains the same
-        height: '100vh', // Height set to 100% of the viewport height
+        height: '90vh', // Height set to 100% of the viewport height
         overflowY: isExpanded ? 'auto' : 'hidden', // Enable scrolling when expanded
         position: 'relative',
         backgroundColor: 'var(--secondary)',
@@ -21,20 +21,20 @@ function TeamMember({ name, major, interests, role, picture, email, linkedin, gi
     return (
         <div
             style={memberStyle}
-            onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-            onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
-            onClick={() => setIsExpanded(!isExpanded)}
+            onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
+            onMouseOut={(e) => e.currentTarget.style.transform = 'scale(0.99)'}
+        // onClick={() => setIsExpanded(!isExpanded)}
         >
             <img src={picture} alt={name} style={{ width: '100%', borderRadius: '5px', maxHeight: '30vh', objectFit: 'cover' }} />
             <h3>{name}</h3>
             <p><strong>Major:</strong> {major}</p>
             <p><strong>Interests:</strong> {interests}</p>
             <p><strong>Role:</strong> {role}</p>
-            <p>
+            {/* <p>
                 {email && <a href={`mailto:${email}`}>Email</a>} |
                 {linkedin && <a href={linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>} |
                 {github && <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>}
-            </p>
+            </p> */}
             {isExpanded && <div>{/* Additional expanded content here */}</div>}
         </div>
     );

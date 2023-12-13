@@ -4,10 +4,16 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
+    /* Changed to auto to allow scrolling */
     font-family: 'Arial', sans-serif;
     color: var(--text);
     background-color: var(--background);
+}
+
+/* Class to disable scrolling for specific pages */
+.no-scroll {
+    overflow: hidden;
 }
 
 /* Navigation bar styles */
