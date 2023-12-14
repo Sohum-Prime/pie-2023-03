@@ -46,7 +46,7 @@ function AboutUs() {
         },
         {
             name: "Ari B",
-            major: "E:IDK",
+            major: "ECE",
             interests: "Electronics, PCB Design",
             role: "Team Lead - Electronics and PCB",
             picture: "/images/ari.png" // Replace with actual image path
