@@ -37,11 +37,17 @@ function Software() {
     ];
 
     return (
-        <div className="main-content">
+        <div className="main-content" style={{ maxWidth: '70%', margin: 'auto' }}>
             <h1>Software</h1>
             <p>Insights into the software development for motor control, gyroscope data handling, and Bluetooth communication.</p>
-            {sprintReviews.map(sprint => (
-                <SprintReview key={sprint.title} {...sprint} />
+            {sprintReviews.map((sprint, index) => (
+                <div key={index} style={{ border: '1px solid var(--accent)', borderRadius: '10px', padding: '20px', marginBottom: '20px' }}>
+                    <h2>{sprint.title}</h2>
+                    <div dangerouslySetInnerHTML={{ __html: sprint.content }} style={{ textAlign: 'justify' }} />
+                    <div style={{ textAlign: 'center' }}>
+                        <img src={sprint.imageUrl} alt={`Sprint ${index + 2} Image`} style={{ maxWidth: '60%', height: 'auto', margin: '20px 0' }} />
+                    </div>
+                </div>
             ))}
         </div>
     );

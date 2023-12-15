@@ -40,7 +40,8 @@ function Overview() {
         { name: 'ESP32-WROOM DevKit', qtyPerPkg: 3, pkg: 1, unitCost: 17.99, totalCost: 17.99 },
         { name: 'IMU (GY-521; MPU6050)', qtyPerPkg: 3, pkg: 1, unitCost: 9.99, totalCost: 9.99 },
         { name: 'Metal Balls (D0.5" Steel)', qtyPerPkg: '-', pkg: 48, unitCost: 0.14, totalCost: 6.72 },
-        { name: 'Misc. Electrical', qtyPerPkg: '-', pkg: 1, unitCost: 5, totalCost: 5 }
+        { name: 'Misc. Electrical', qtyPerPkg: '-', pkg: 1, unitCost: 5, totalCost: 5 },
+        { name: 'Total', qtyPerPkg: '', pkg: '', unitCost: '', totalCost: 311.33 }
     ];
 
     return (
@@ -58,8 +59,7 @@ function Overview() {
 
             <div style={{ textAlign: 'center', margin: '20px 0' }}>
                 <h2>System Architecture</h2>
-                <img src="/images/70 System Diagram.png" alt="System Diagram" style={{ maxWidth: '60%', height: 'auto' }} />
-                <p style={{ maxWidth: '80%', margin: 'auto' }}>Description of the system architecture...</p>
+                <img src="/images/70 System Diagram.svg" alt="System Diagram" style={{ maxWidth: '60%', height: 'auto' }} />
             </div>
 
             <h2>Budget Overview</h2>
@@ -79,8 +79,12 @@ function Overview() {
                             <td style={{ border: `1px solid var(--accent)`, padding: '8px' }}>{item.name}</td>
                             <td style={{ border: `1px solid var(--accent)`, padding: '8px' }}>{item.qtyPerPkg}</td>
                             <td style={{ border: `1px solid var(--accent)`, padding: '8px' }}>{item.pkg}</td>
-                            <td style={{ border: `1px solid var(--accent)`, padding: '8px' }}>${item.unitCost.toFixed(2)}</td>
-                            <td style={{ border: `1px solid var(--accent)`, padding: '8px' }}>${item.totalCost.toFixed(2)}</td>
+                            <td style={{ border: `1px solid var(--accent)`, padding: '8px' }}>
+                                {item.unitCost && `$${item.unitCost.toFixed(2)}`}
+                            </td>
+                            <td style={{ border: `1px solid var(--accent)`, padding: '8px' }}>
+                                ${item.totalCost.toFixed(2)}
+                            </td>
                         </tr>
                     ))}
                 </tbody>
