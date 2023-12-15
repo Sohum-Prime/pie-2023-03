@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Sohum-Prime/pie-2023-03/static/css/main.da1771d3.css",
-    "main.js": "/Sohum-Prime/pie-2023-03/static/js/main.8ed0791d.js",
-    "static/js/787.d4aba7ab.chunk.js": "/Sohum-Prime/pie-2023-03/static/js/787.d4aba7ab.chunk.js",
-    "static/media/slick.svg": "/Sohum-Prime/pie-2023-03/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Sohum-Prime/pie-2023-03/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/Sohum-Prime/pie-2023-03/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Sohum-Prime/pie-2023-03/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/Sohum-Prime/pie-2023-03/index.html",
-    "main.da1771d3.css.map": "/Sohum-Prime/pie-2023-03/static/css/main.da1771d3.css.map",
-    "main.8ed0791d.js.map": "/Sohum-Prime/pie-2023-03/static/js/main.8ed0791d.js.map",
-    "787.d4aba7ab.chunk.js.map": "/Sohum-Prime/pie-2023-03/static/js/787.d4aba7ab.chunk.js.map"
+    "main.css": "/pie-2023-03/static/css/main.347ab46d.css",
+    "main.js": "/pie-2023-03/static/js/main.1d2293ce.js",
+    "static/js/787.d4aba7ab.chunk.js": "/pie-2023-03/static/js/787.d4aba7ab.chunk.js",
+    "static/media/slick.svg": "/pie-2023-03/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pie-2023-03/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pie-2023-03/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/pie-2023-03/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/pie-2023-03/index.html",
+    "main.347ab46d.css.map": "/pie-2023-03/static/css/main.347ab46d.css.map",
+    "main.1d2293ce.js.map": "/pie-2023-03/static/js/main.1d2293ce.js.map",
+    "787.d4aba7ab.chunk.js.map": "/pie-2023-03/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da1771d3.css",
-    "static/js/main.8ed0791d.js"
+    "static/css/main.347ab46d.css",
+    "static/js/main.1d2293ce.js"
   ]
 }
