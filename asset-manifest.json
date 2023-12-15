@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Sohum-Prime/pie-2023-03/cern/static/css/main.07c49c9f.css",
+    "main.js": "/Sohum-Prime/pie-2023-03/cern/static/js/main.b93cffd8.js",
+    "static/js/787.d4aba7ab.chunk.js": "/Sohum-Prime/pie-2023-03/cern/static/js/787.d4aba7ab.chunk.js",
+    "static/media/slick.svg": "/Sohum-Prime/pie-2023-03/cern/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Sohum-Prime/pie-2023-03/cern/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Sohum-Prime/pie-2023-03/cern/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Sohum-Prime/pie-2023-03/cern/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Sohum-Prime/pie-2023-03/cern/index.html",
+    "main.07c49c9f.css.map": "/Sohum-Prime/pie-2023-03/cern/static/css/main.07c49c9f.css.map",
+    "main.b93cffd8.js.map": "/Sohum-Prime/pie-2023-03/cern/static/js/main.b93cffd8.js.map",
+    "787.d4aba7ab.chunk.js.map": "/Sohum-Prime/pie-2023-03/cern/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07c49c9f.css",
+    "static/js/main.b93cffd8.js"
+  ]
+}
