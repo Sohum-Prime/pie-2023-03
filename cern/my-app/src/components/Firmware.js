@@ -11,7 +11,7 @@ function Software() {
             content: `
             The code for Sprint 1 represents the initial iteration of the control system for the robot using an ESP32 microcontroller. In this early stage, the primary focus is on establishing basic functionality and communication between the ESP32 and a paired device over Bluetooth. The code implements fundamental motor control and sensor interaction to enable the robot to respond to directional commands sent from a Bash terminal to the specified Bluetooth MAC address.                
             `,
-            imageUrl: '/images/450 MAC Address.png' // Embedded
+            imageUrl: '/images/450 MAC Address.png', // Embedded
             imageUrl: '/images/460 Arduino Test Driving Bluetooth Code.png' // Embedded
         },
         {
@@ -97,7 +97,7 @@ function Software() {
 
     return (
         <div className="main-content">
-            <h1>Software</h1>
+            <h1>Firmware</h1>
             <p>Insights into the software development for motor control, gyroscope data handling, and Bluetooth communication.</p>
             {sprintReviews.map(sprint => (
                 <SprintReview key={sprint.title} {...sprint} />
